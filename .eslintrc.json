@@ -12,12 +12,12 @@
   ],
   "settings": {
     "react": {
-      "version": "^16.0.0"
+      "version": "^16.12.0"
     }
   },
   "extends": [
-    "@dkh-dev/eslint-config",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "@dkh-dev/eslint-config"
   ],
   "rules": {
     "jsx-quotes": [

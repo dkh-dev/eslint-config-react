@@ -1,5 +1,3 @@
-
-
 const { CLIEngine } = require('eslint')
 const test = require('tape')
 
