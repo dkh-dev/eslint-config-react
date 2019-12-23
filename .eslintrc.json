@@ -20,6 +20,7 @@
     "@dkh-dev/eslint-config"
   ],
   "rules": {
+    "consistent-return": "off",
     "jsx-quotes": [
       "error",
       "prefer-single"
