@@ -1,0 +1,40 @@
+{
+  "name": "@dkh-dev/eslint-config-react",
+  "version": "1.0.0",
+  "description": "ESLint config for React",
+  "main": "index.js",
+  "files": [
+    ".eslintrc.json"
+  ],
+  "devDependencies": {
+    "@dkh-dev/eslint-config": "^1.2.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "tape": "^4.12.0"
+  },
+  "peerDependencies": {
+    "@dkh-dev/eslint-config": "^1.2.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
+  },
+  "scripts": {
+    "test": "node test",
+    "prepublishOnly": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dkh-dev/eslint-config-react.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config"
+  ],
+  "author": "Hoang <dangkyokhoang@gmail.com> (https://dangkyokhoang.github.io/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkh-dev/eslint-config-react/issues"
+  },
+  "homepage": "https://github.com/dkh-dev/eslint-config-react#readme"
+}
