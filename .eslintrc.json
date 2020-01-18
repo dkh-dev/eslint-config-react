@@ -42,10 +42,7 @@
     ],
     "react/jsx-curly-newline": [
       "error",
-      {
-        "multiline": "consistent",
-        "singleline": "consistent"
-      }
+      "never"
     ],
     "react/jsx-curly-spacing": [
       "error",
