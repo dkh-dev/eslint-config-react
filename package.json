@@ -1,22 +1,22 @@
 {
   "name": "@dkh-dev/eslint-config-react",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "ESLint config for React",
   "main": "index.js",
   "files": [
     ".eslintrc.json"
   ],
   "devDependencies": {
-    "@dkh-dev/eslint-config": "^1.2.0",
+    "@dkh-dev/eslint-config": "^1.4.0",
     "eslint": "^6.8.0",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0",
-    "tape": "^4.12.0"
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.4.0",
+    "tape": "^4.13.0"
   },
   "peerDependencies": {
-    "@dkh-dev/eslint-config": "^1.2.0",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "@dkh-dev/eslint-config": "^1.4.0",
+    "eslint-plugin-react": "^7.18.3",
+    "eslint-plugin-react-hooks": "^2.4.0"
   },
   "scripts": {
     "test": "node test",

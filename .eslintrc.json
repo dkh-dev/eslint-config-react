@@ -27,6 +27,15 @@
     ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
+    "react/boolean-prop-naming": "error",
+    "react/default-props-match-prop-types": "error",
+    "react/forbid-foreign-prop-types": "error",
+    "react/function-component-definition": [
+      "error",
+      {
+        "namedComponents": "arrow-function"
+      }
+    ],
     "react/jsx-boolean-value": "error",
     "react/jsx-closing-bracket-location": [
       "error",
@@ -81,7 +90,6 @@
       "error",
       2
     ],
-    "react/jsx-key": "error",
     "react/jsx-no-bind": [
       "error",
       {
@@ -90,15 +98,14 @@
         "ignoreRefs": true
       }
     ],
-    "react/jsx-no-comment-textnodes": "error",
-    "react/jsx-no-duplicate-props": "error",
+    "react/jsx-no-script-url": "error",
     "react/jsx-no-target-blank": [
       "error",
       {
         "enforceDynamicLinks": "always"
       }
     ],
-    "react/jsx-no-undef": "error",
+    "react/jsx-no-useless-fragment": "error",
     "react/jsx-pascal-case": [
       "error",
       {
@@ -115,13 +122,20 @@
         "beforeClosing": "never"
       }
     ],
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error",
+    "react/jsx-wrap-multilines": "error",
+    "react/no-access-state-in-setstate": "error",
+    "react/no-danger": "error",
     "react/no-did-update-set-state": "error",
-    "react/no-unknown-property": "error",
+    "react/no-redundant-should-component-update": "error",
+    "react/no-this-in-sfc": "error",
+    "react/no-unsafe": "error",
     "react/no-unused-prop-types": "error",
-    "react/prop-types": "error",
-    "react/react-in-jsx-scope": "error",
-    "react/self-closing-comp": "error"
+    "react/no-unused-state": "error",
+    "react/prefer-es6-class": "error",
+    "react/prefer-stateless-function": "error",
+    "react/self-closing-comp": "error",
+    "react/state-in-constructor": "error",
+    "react/style-prop-object": "error",
+    "react/void-dom-elements-no-children": "error"
   }
 }
