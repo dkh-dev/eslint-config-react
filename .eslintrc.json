@@ -25,6 +25,15 @@
       "error",
       "prefer-single"
     ],
+    "max-len": [
+      "error",
+      {
+        "ignoreUrls": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true,
+        "ignorePattern": "^\\s*<\\w+|^import|^export"
+      }
+    ],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
     "react/boolean-prop-naming": "error",
