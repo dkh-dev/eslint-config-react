@@ -142,6 +142,7 @@
     "react/no-unused-state": "error",
     "react/prefer-es6-class": "error",
     "react/prefer-stateless-function": "error",
+    "react/react-in-jsx-scope": "off",
     "react/self-closing-comp": "error",
     "react/state-in-constructor": "error",
     "react/style-prop-object": "error",
