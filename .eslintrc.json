@@ -34,6 +34,7 @@
         "ignorePattern": "^\\s*<\\w+|^import|^export"
       }
     ],
+    "sort-imports": "error",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
     "react/boolean-prop-naming": "error",
