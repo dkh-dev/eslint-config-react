@@ -1,6 +1,6 @@
 {
   "parserOptions": {
-    "ecmaVersion": 2020,
+    "ecmaVersion": 2021,
     "ecmaFeatures": {
       "jsx": true
     },
@@ -13,14 +13,20 @@
   "settings": {
     "react": {
       "version": "detect"
-    }
+    },
+    "linkComponents": [
+      "Link",
+      {
+        "name": "Link",
+        "linkAttribute": "to"
+      }
+    ]
   },
   "extends": [
     "plugin:react/recommended",
     "@dkh-dev/eslint-config"
   ],
   "rules": {
-    "consistent-return": "off",
     "jsx-quotes": [
       "error",
       "prefer-single"
@@ -31,12 +37,13 @@
         "ignoreUrls": true,
         "ignoreTemplateLiterals": true,
         "ignoreRegExpLiterals": true,
-        "ignorePattern": "^\\s*<\\w+|^import|^export"
+        "ignorePattern": "^\\s+<\\w+|^\\s+\\w+=|^import|^export|require\\("
       }
     ],
-    "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
+    "react-hooks/rules-of-hooks": "error",
     "react/boolean-prop-naming": "error",
+    "react/button-has-type": "error",
     "react/default-props-match-prop-types": "error",
     "react/forbid-foreign-prop-types": "error",
     "react/function-component-definition": [
@@ -141,6 +148,7 @@
     "react/no-unused-prop-types": "error",
     "react/no-unused-state": "error",
     "react/prefer-es6-class": "error",
+    "react/prefer-read-only-props": "error",
     "react/prefer-stateless-function": "error",
     "react/react-in-jsx-scope": "off",
     "react/self-closing-comp": "error",
